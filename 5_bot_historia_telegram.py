@@ -273,7 +273,7 @@ async def continuar_historia(update: Update, context: ContextTypes.DEFAULT_TYPE,
     await update.message.reply_text(f"...{texto2}")
 
 # Token del bot
-TOKEN = "7874960165:AAFFlGBsJJfwBLLuX4Nrf31x-w7tYCJshIY"
+TOKEN = "TOKEN_AQUI"
 
 app = ApplicationBuilder().token(TOKEN).build()
 app.add_handler(CommandHandler("start", start))
